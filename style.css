@@ -1,0 +1,290 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+  background-color: rgb(222, 185, 255);
+  background-size: cover;
+  color: black;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px black solid;
+  position: fixed;
+}
+.container{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px red solid; */
+}
+.header .container{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px red solid; */
+}
+.navbar{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+ .foto{
+  background-image: url(https://www.smviagens.com.br/wp-content/uploads/2018/06/Viagem.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover; 
+  width: 100%;
+  height: 565px;
+} 
+.foto .esquerda{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.foto .direita{ 
+  width: 50%;
+  height: 100%;
+}
+.foto .direita .cima{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.caixaVidro{
+  margin-top: 100px;
+  margin-right: 10px;
+  width: 280px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+border: 1px solid rgba(255, 255, 255, 0.54);
+}
+.foto .direita .baixo{
+  width: 100%;
+  height: 48.2%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.botão{
+  background-color: rgb(205, 43, 226);
+  border: 3px rgb(205, 43, 226) solid;
+  font-size: 30px;
+  border-radius: 15px;
+  color: black;
+  transition-duration: 0,3s;
+}
+.botão:hover{
+  background-color: rgb(222, 185, 255);;
+}
+.corpo{
+  background-image: url(https://media.istockphoto.com/vectors/passport-visa-stamps-seamless-pattern-international-and-immigration-vector-id1094679762);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corpoInterno{
+  background-color: rgb(222, 185, 255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardInicio{
+  background-color: rgb(222, 185, 255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content:space-around;
+  align-items:center;
+  margin-top: 0px;
+  border-radius: 30px;
+}
+.tituloCardInicio{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  /* border: #e6005a 2px solid; */
+}
+.cardInicio .conteudo{
+width:100%;
+height: 90%
+}
+.cardInicio .esquerda{
+width: 49%;
+height: 100%;
+float: left;
+margin-left: 10px;
+/* border: #e6005a 2px solid; */
+}
+.cardInicio .direita{
+  width: 49.5%;
+  height: 100%;
+  float: right;
+  margin-right: 5px;
+  /* border: #450f24 2px solid; */
+}
+.cardInicio .direita .cima{
+  width: 100%;
+  height: 13%;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: #e6005a 2px solid; */
+}
+.cardInicio .direita .baixo{
+  width: 100%;
+  height: 83%;
+  margin: 2px;
+  /* border: #e6005a 2px solid; */
+}
+.imgDestinos{
+  background-repeat: no-repeat;
+  width: 48.3%;
+  height: 48%;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items:flex-end;
+  margin: 5px 5px;
+  /* border: #450f24 2px solid; */
+}
+.footer{
+  background-image: url(https://st3.depositphotos.com/19193604/34667/i/450/depositphotos_346677544-stock-photo-sunset-background-beautiful-sun-sky.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meioCadastro .corpo{
+  height: 700px;
+}
+.cardCadastro{
+  background-color: rgb(222, 185, 255);
+  width: 450px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+.result{
+  width: 100%;
+  height: 30px;
+}
+.corpoLogin{
+  background-image: url(https://media.istockphoto.com/vectors/passport-visa-stamps-seamless-pattern-international-and-immigration-vector-id1094679762);
+  width: 100%;
+  height: 565px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardLogin{
+  background-color: rgb(222, 185, 255);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+  border-radius: 30px;
+  /* border: red 2px solid; */
+}
+.preCorpoQuiz{
+  background-image: url(https://media.istockphoto.com/vectors/passport-visa-stamps-seamless-pattern-international-and-immigration-vector-id1094679762);
+  width: 100%;
+  height: 70px;
+}
+.corpoQuiz{
+  background-image: url(https://media.istockphoto.com/vectors/passport-visa-stamps-seamless-pattern-international-and-immigration-vector-id1094679762);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.banner #div_erros_login {
+  margin-top: 15px;
+}
+.alerta_erro{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card_erro {
+  display: none;
+  background-color: #fff;
+  color: black;
+  width: 230px;
+  position: fixed;
+  border-radius: 4px;
+  /* border: #e6005a 3px solid; */
+  padding: 10px;
+  margin-right: 10%;
+}
+
+.card_erro #mensagem_erro{
+  font-weight: 500;
+  font-size: 20px;
+} 
+
+.banner #div_erros_login {
+  margin-top: 15px;
+}
+.card_erro #mensagem_erro{
+  font-weight: 500;
+  font-size: 20px;
+}
+.loading-div {
+  width: 50px;
+  margin: auto;
+  display: none;
+}
+
+.loading-div img {
+  height: 15px;
+  width: 15px;
+}
