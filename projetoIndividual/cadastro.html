@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIage││ Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="header">
+        <div class="container">
+         <h1>VIaja</h1>
+         <ul class="navbar">
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+           <li>
+             <li class="agora">
+               <a href="cadastro.html">Cadastre-se</a>
+             </li>
+           </li>
+           <li>
+             <a href="login.html">Entrar</a>
+           </li>
+         </ul>
+        </div>
+      </div>
+      <div class="meioCadastro">
+        <div class="alerta_erro">
+            <div class="card_erro" id="cardErro">
+                <span id="mensagem_erro"></span>
+            </div>
+            </div>
+        <div class="corpo">
+          <div class="container">
+            <div class="cardCadastro">
+                <h1 class="tituloCadastro">VIage</h1>
+                <h4 class="descricaoCadastro">Cadastre-se e compartilhe conosco suas<br>
+                  experiencias de viagens</h4>
+                <form>
+                  <input class="inputCadastro" type="text" id="nomeInput" placeholder="Nome completo" onkeyup="keyNome()">
+                  <div id="resultNome" class="result"></div>
+                  <input class="inputCadastro" type="text" id="nomeUsuarioInput" placeholder="Nome de usuário" onkeyup="keyNomeUsuario()">
+                  <div id="resultUsuario" class="result"></div>
+                  <input class="inputCadastro" type="text" id="emailInput" placeholder="E-mail" onkeyup="keyEmail()">
+                  <div id="resultEmail" class="result"></div>
+                  <input class="inputCadastro" type="password" id="senhaInput" placeholder="Senha" onkeyup="keySenha()">
+                  <div id="resultSenha" class="result"></div>
+                  <input class="inputCadastro" type="password" id="confirmacaoSenhaInput" placeholder="Confirme a senha" onkeyup="keyConfirmacaoSenha()">
+                  <div id="resultConfirmacaoSenha" class="result"></div>
+                </form>
+                <button class="botão" onclick="cadastrar()">Cadastrar</button>
+            </div>
+
+            <div id="div_aguardar" class="loading-div">
+              <img src="./assets/circle-loading.gif" id="loading-gif">
+          </div>
+            <div id="div_erros_login"></div>
+          </div>
+          </div>
+      </div>
+      <div class="footer">
+        <div class="container">Feito com carinho pela Vi, uma amante de viagens ♥</div>
+      </div>
+  </body>
+</html>
